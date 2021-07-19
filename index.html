@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/17967c193a.js" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#backpack">Backpack</a></li>
+                <li><a class="dropdown-item" href="#shoes">Shoes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#payments">Payment</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container mt-5 rounded-3" style="background-color: rgba(218, 69, 94, 0.2);" id="home">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1>Mad Catz R.A.T. PRO X</h1>
+                <p>R.A.T. PRO X Ultimate Gaming Mouse the best model money can buy today</p>
+                <h1 class="text-danger">$2000</h1>
+                <button class="btn btn-warning">Buy Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img src="img/banner-images/mouse.jpg" class="d-block w-100" alt="">
+              </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1>Havit HV-H2002D Gaming Headphone</h1>
+                <p>This headphone is featured with 3.5mm jack, Cable Length 5.5 feet, 20Hz-20kHz Frequency Response, 110dB+-3dB Sensitivity, 64+-15%ohm Impedance and Microphone</p>
+                <h1 class="text-danger">$2300</h1>
+                <button class="btn btn-warning">Buy Now >></button>
+              </div>
+              <div class="col-lg-5">
+                <img src="img/banner-images/headphone.jpg" class="d-block w-100" alt="">
+              </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1>Sony PlayStation 3 (PS3)</h1>
+                <p>3.2 GHz Cell Broadband Engine with 4 PPE and 16 SPEs<br>
+                  4096 MB XDR DRAM system and 2048 MB GDDR4 video</p>
+                <h1 class="text-danger">$40000</h1>
+                <button class="btn btn-warning">Buy Now >></button>
+              </div>
+              <div class="col-lg-5">
+                <img src="img/banner-images/ps3.jpg" class="d-block w-100" alt="">
+              </div>
+           </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="container mt-5 p-5" id="categories">
+      <div class="row">
+        <div class="col-lg-4 border border-5 rounded-pill" style="background-color: rgb(94, 241, 94);">
+          <div class="d-flex justify-content-around align-items-center">
+            <h1>BAG</h1>
+            <img src="img/categories/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 border border-5 rounded-pill" style="background-color: rgb(243, 73, 31);">
+          <div class="d-flex justify-content-around align-items-center">
+            <h1>WATCH</h1>
+            <img src="img/categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 border border-5 rounded-pill" style="background-color: rgb(101, 37, 219);">
+          <div class="d-flex justify-content-around align-items-center">
+            <h1>SHOES</h1>
+            <img src="img/categories/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5 shadow" id="shoes">
+      <h1>Shoes</h1>
+      <div class="row">
+      <div class="card col-lg-4">
+        <img src="img/shoes/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Supply 350</h4>
+          <h5 class="text-danger">$1200</h5>
+          <a href="#" class="btn btn-info">Buy Now >></a>
+        </div>
+      </div>
+      <div class="card col-lg-4">
+        <img src="img/shoes/shoe-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike 360</h5>
+          <h5 class="text-danger">$1400</h5>
+          <a href="#" class="btn btn-info">Buy Now >></a>
+        </div>
+      </div>
+      <div class="card col-lg-4">
+        <img src="img/shoes/shoe-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red Airmax</h5>
+          <h5 class="text-danger">$1500</h5>
+          <a href="#" class="btn btn-info">Buy Now >></a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="container my-5 shadow" id="backpack">
+      <h1>Backpack</h1>
+      <div class="row">
+        <div class="card col-lg-4">
+          <img src="img/bags/bag-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Red Laltu Bag</h4>
+            <h5 class="text-danger">$650</h5>
+            <a href="#" class="btn btn-info">Buy Now >></a>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <img src="img/bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blue Niltu</h5>
+            <h5 class="text-danger">$700</h5>
+            <a href="#" class="btn btn-info">Buy Now >></a>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <img src="img/bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Kaltu Bag</h5>
+            <h5 class="text-danger">$800</h5>
+            <a href="#" class="btn btn-info">Buy Now >></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container rounded-3 text-center" style="background-color: rgba(216, 112, 147, 0.438);" id="payments">
+      <h1 class="text-center">Payment Methods</h1>
+      <div class="m-4">
+      <img src="img/payments/cod.png" alt="">
+      <img src="img/payments/visa.png" alt="">
+      <img src="img/payments/mc.png" alt="">
+      <img src="img/payments/bkash.png" alt="">
+      </div>
+    </section>
+    
+  </main>
+  <footer class="text-center mt-5">
+    <p>© 2021 PANDA</p>
+  </footer>
+</body>
+</html>
